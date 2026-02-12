@@ -1,0 +1,1 @@
+savedcmd_simple_fifo.ko := x86_64-linux-gnu-ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.18.9+kali-amd64/arch/x86/module.lds -o simple_fifo.ko simple_fifo.o simple_fifo.mod.o .module-common.o
