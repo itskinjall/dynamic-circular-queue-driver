@@ -1,1 +1,1 @@
-savedcmd_modules.order := {   echo simple_fifo.o; :; } > modules.order
+savedcmd_modules.order := {   echo vicharak_driver.o; :; } > modules.order
